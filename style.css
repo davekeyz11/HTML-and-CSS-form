@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+form.former {
+    background: transparent;
+    font-family: sans-serif;
+    padding-top: 90px;
+    box-shadow: 255 255 255 .3px rgba(255,255,255.15),
+    0 2px 3px 0 rgba(255,255,255,.3px);
+}
+
+.input {
+    padding: 8px;
+    border-radius: 9px;
+    background: transparent;
+}
+
+/* This is the submit button code */
+
+.special-input {
+    background: transparent;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    font-family: 'Roboto-Black';
+}
+
+.special-input:active {
+    background-color: green;
+    color: #fff;
+}
+body {
+    background-image: url('IMGS/background-for-form.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('FONTS/Roboto-Black.ttf');
+}
