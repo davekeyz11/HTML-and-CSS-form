@@ -16,6 +16,8 @@ form.former {
     padding: 16px;
     border-radius: 5px;
     background: transparent;
+    border: 1px solid black;
+    font-family: sans-serif;
 }
 
 /* This is the submit button code */
@@ -25,18 +27,22 @@ form.former {
     height: 50px;
     width: 200px;
     border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     font-size: 22px;
+    border: 1px solid black;
 }
 
 .special-input:hover {
-    background-color: green;
+    background-color: blue;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
+    border: 1px solid black;
+    animation-name: example;
+    animation-duration: 3s;
 }
+
 body {
-    background-image: url('IMGS/Hacker1.jfif');
+    background-image: url('IMGS/background-for-form.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
