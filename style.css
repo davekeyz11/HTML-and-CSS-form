@@ -53,10 +53,3 @@ body {
     src: url('FONTS/Roboto-Black.ttf');
 }
 
-@media screen and (max-width: 680px) {
-    body {
-        background-size: cover;
-        background-image: url('IMGS/Hacker1.jfif');
-        background-repeat: no-repeat;
-    }
-}
