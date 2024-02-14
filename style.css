@@ -8,13 +8,11 @@ form.former {
     background: transparent;
     font-family: sans-serif;
     padding-top: 10%;
-    box-shadow: 255 255 255 .3px rgba(255,255,255.15),
-    0 2px 3px 0 rgba(255,255,255,.3px);
 }
 
 .input {
     padding: 16px;
-    border-radius: 5px;
+    border-radius: 30px;
     background: transparent;
     border: 1px solid black;
     font-family: sans-serif;
@@ -26,7 +24,7 @@ form.former {
     background: transparent;
     height: 50px;
     width: 200px;
-    border-radius: 5px;
+    border-radius: 30px;
     font-family: sans-serif;
     font-size: 18px;
     border: 1px solid black;
