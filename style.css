@@ -18,7 +18,7 @@ form.former {
     font-family: sans-serif;
 }
 
-/* This is the submit button code */
+/**This is the submit button code */
 
 .special-input {
     background: transparent;
@@ -29,16 +29,17 @@ form.former {
     font-size: 18px;
     border: 1px solid black;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .special-input:hover {
-    background-color: #00abf0;
     color: #fff;
     font-size: 18px;
     font-weight: bold;
     border: 1px solid black;
-    animation-name: example;
-    animation-duration: 3s;
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: #00abf0;
 }
 
 body {
@@ -51,3 +52,4 @@ body {
     src: url('FONTS/Roboto-Black.ttf');
 }
 
+/* ! There is no backend so the submit button is only a design */
